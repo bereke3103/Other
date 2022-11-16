@@ -34,11 +34,11 @@ namespace Lessons2
             Console.WriteLine(a * 60.79);*/
 
             //КОНВЕРТИРУЕМ ВАШ ДОЛЛАР В ТЕНГЕ
-            Console.WriteLine("Напишите ваш доллар для конвертации в тенге");
+            /*Console.WriteLine("Напишите ваш доллар для конвертации в тенге");
 
             string str = Console.ReadLine();
             int a = int.Parse(str);
-            Console.WriteLine("Ваш тенге: " + a * 460);
+            Console.WriteLine("Ваш тенге: " + a * 460);*/
 
 
 
