@@ -1,0 +1,15 @@
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\bin\Debug\net6.0\Lessons.exe
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\bin\Debug\net6.0\Lessons.deps.json
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\bin\Debug\net6.0\Lessons.runtimeconfig.json
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\bin\Debug\net6.0\Lessons.dll
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\bin\Debug\net6.0\Lessons.pdb
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\Lessons.csproj.AssemblyReference.cache
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\Lessons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\Lessons.AssemblyInfoInputs.cache
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\Lessons.AssemblyInfo.cs
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\Lessons.csproj.CoreCompileInputs.cache
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\Lessons.dll
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\refint\Lessons.dll
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\Lessons.pdb
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\Lessons.genruntimeconfig.cache
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\ref\Lessons.dll
