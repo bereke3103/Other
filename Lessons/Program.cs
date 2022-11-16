@@ -2,83 +2,55 @@
 
 
 
-namespace Lessons
+namespace Lessons2
 {
     class Program
     {
-        /* static void Main(string[] args)
-         {
-             int a, b;
-             a = 5;
-             b = 10;
-             Console.WriteLine(a);
-             Console.WriteLine(b);
-
-             string aLotOfStrings = "dsadasda";
-             Console.WriteLine(aLotOfStrings);
-             char oneSymbol = 'v';
-             Console.WriteLine(oneSymbol);
-
-             string data;
-             data = Console.ReadLine();
-             Console.WriteLine("Привет "+data);
-         }
-        */
-        /*static void Main(string[] args)
-         {
-             string str;
-
-             int a, b, c;
-
-             Console.WriteLine("Введите ваше первое число");
-             str = Console.ReadLine();
-             a = Convert.ToInt32(str);
-
-             Console.WriteLine("Введите ваше второе число");
-             str = Console.ReadLine() ;
-
-             b = Convert.ToInt32(str) ;
-
-             Console.WriteLine("Введите ваше третье число");
-             str = Console.ReadLine() ;
-             c = Convert.ToInt32(str) ;
-
-             int result = a + b + c ;
-
-             Console.WriteLine("Ваш результат: " +result);
-
-
-
-         }*/
-
         static void Main(string[] args)
         {
-            /* string str = "511";
+            //КАЛЬКУЛЯТОР МИНИ
+            /*string str;
+            int a, b;
 
-             try
-             {
-                 int a = int.Parse(str);
-                 Console.WriteLine("Конвертация прошла успешна");
-             }
-             catch (Exception)
-             {
+            Console.WriteLine("Введите ваше первое число");
 
-                 Console.WriteLine("Введите правильное число");
-             }*/
+            str = Console.ReadLine();
+            a = int.Parse(str);
 
-            string str = "555dsa";
-            int a;
-            bool result = int.TryParse(str, out a);
-            
-            if(result )
+            Console.WriteLine("Введите ваше второе число");
+            str = Console.ReadLine();
+            b = int.Parse(str);
+
+            int result = a + b;
+
+            Console.WriteLine("Ваш ответ: " + result);*/
+
+            //УСЛОВНЫЙ ОПЕРАТОР
+            //string str = "55aa5";
+            //int a;
+            /*bool result = int.TryParse(str, out a);
+            if (result)
             {
-                Console.WriteLine("Конвертация прошла успешна" + a);
+                Console.WriteLine("Конвертация прошла успешна");
             } else
             {
-                Console.WriteLine("Напигите нормално");
-            }
+                Console.WriteLine("Напиши число!!!");
+            }*/
 
-        }
-    }
+
+            //try__catch
+            /*string str = "555";
+
+            try
+            {
+                int a = int.Parse(str);
+                Console.WriteLine("Конвертация прошла успешна");
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine("Напишите верное число");
+            }*/
+    }    }
 }
 
