@@ -51,6 +51,6 @@ namespace Lessons2
 
                 Console.WriteLine("Напишите верное число");
             }*/
-    }    }
+    }    } 
 }
 
