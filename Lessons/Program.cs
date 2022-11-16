@@ -7,43 +7,17 @@ namespace Lessons2
     {
         static void Main(string[] args)
         {
+            double firstValue, secondValue;
 
-            /*int a = 1;
-            int b = 9;
-            Console.WriteLine(a + b * 9);*/
+            Console.WriteLine("Введите первое число");
 
+            firstValue = double.Parse(Console.ReadLine());
 
-            //КОНВЕРТИРУЕМ ВАШ ТЕНГЕ В РУБЛЬ
-            /*            string str;
-                        int a;
-                        Console.WriteLine("Напшите тенге, и я вам покажу сколько это будет в рублях");
-                        str = Console.ReadLine();
-                        a = int.Parse(str);
+            Console.WriteLine("Введите второе число");
 
-                        Console.WriteLine(a * 5);*/
+            secondValue= double.Parse(Console.ReadLine());
 
-
-            //КОНВЕРТИРУЕМ ВАШ ДОЛЛАР В РУБЛЬ
-
-            /*string str;
-            double a;
-            Console.WriteLine("Напишите ваш ДОЛЛАР, и мы конвертируем это в РУБЛЬ");
-
-            str = Console.ReadLine();
-            a = double.Parse(str);
-            Console.WriteLine(a * 60.79);*/
-
-            //КОНВЕРТИРУЕМ ВАШ ДОЛЛАР В ТЕНГЕ
-            /*Console.WriteLine("Напишите ваш доллар для конвертации в тенге");
-
-            string str = Console.ReadLine();
-            int a = int.Parse(str);
-            Console.WriteLine("Ваш тенге: " + a * 460);*/
-
-
-
-
-
+            Console.WriteLine("Ваше среднее число: " + (firstValue+secondValue) / 2);
     }    } 
 }
 

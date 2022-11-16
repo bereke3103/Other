@@ -1,0 +1,15 @@
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\bin\Debug\net6.0\2hw.exe
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\bin\Debug\net6.0\2hw.deps.json
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\bin\Debug\net6.0\2hw.runtimeconfig.json
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\bin\Debug\net6.0\2hw.dll
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\bin\Debug\net6.0\2hw.pdb
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\obj\Debug\net6.0\2hw.csproj.AssemblyReference.cache
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\obj\Debug\net6.0\2hw.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\obj\Debug\net6.0\2hw.AssemblyInfoInputs.cache
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\obj\Debug\net6.0\2hw.AssemblyInfo.cs
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\obj\Debug\net6.0\2hw.csproj.CoreCompileInputs.cache
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\obj\Debug\net6.0\2hw.dll
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\obj\Debug\net6.0\refint\2hw.dll
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\obj\Debug\net6.0\2hw.pdb
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\obj\Debug\net6.0\2hw.genruntimeconfig.cache
+C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\2hw\obj\Debug\net6.0\ref\2hw.dll
