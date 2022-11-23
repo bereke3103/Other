@@ -4,20 +4,22 @@ namespace home2
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            int a;
-            a = int.Parse(Console.ReadLine());
+            int a = int.Parse(Console.ReadLine());
 
-            if (a >= 5)
+            int temp = a % 2;
+
+            bool result = temp == 0;
+
+            if (result) 
             {
-                Console.WriteLine("Проверка прошла успешна");
+                Console.WriteLine("ЧИЛО ЧЕТНОЕ");
             } else
             {
-                Console.WriteLine("Ошибка");
+                Console.WriteLine("ЧИЛО НЕ ЧЕТНОЕ");
             }
-
-
         }
     }
 }
