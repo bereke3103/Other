@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\Lessons\\2hw\\2hw.csproj": {}
+    "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\lessons\\2hw\\2hw.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\Lessons\\2hw\\2hw.csproj": {
+    "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\lessons\\2hw\\2hw.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\Lessons\\2hw\\2hw.csproj",
+        "projectUniqueName": "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\lessons\\2hw\\2hw.csproj",
         "projectName": "2hw",
-        "projectPath": "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\Lessons\\2hw\\2hw.csproj",
+        "projectPath": "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\lessons\\2hw\\2hw.csproj",
         "packagesPath": "C:\\Users\\berek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\Lessons\\2hw\\obj\\",
+        "outputPath": "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\lessons\\2hw\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
