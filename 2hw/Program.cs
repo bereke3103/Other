@@ -8,12 +8,12 @@ namespace home2
         static void Main(string[] args)
         {
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 15; i++)
             {
-                string msg = Console.ReadLine();
-                if (msg == "hello")
+                if (i == 11)
                 {
-                    break;
+                    continue;
+                    
                 }
                 Console.WriteLine(i);
             }
