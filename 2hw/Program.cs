@@ -8,35 +8,15 @@ namespace home2
         static void Main(string[] args)
         {
 
-            //нечетное число
-            uint evenNumber = 0;
-            int evenSum = 0;
-
-            //четное число
-            uint oddNumber = 0;
-            int oddSum = 0;
-
-            int currentValue = int.Parse(Console.ReadLine());
-            int limitValue = int.Parse(Console.ReadLine());
-
-            while (currentValue <= limitValue)
+            for (int i = 0; i < 100; i++)
             {
-                if (currentValue % 2==0)
+                string msg = Console.ReadLine();
+                if (msg == "hello")
                 {
-                    evenSum = evenSum + currentValue;
-                    evenNumber++;
-                } else
-                {
-                    oddSum = oddSum + currentValue;
-                    oddNumber++;
+                    break;
                 }
-                currentValue++;
+                Console.WriteLine(i);
             }
-
-            Console.WriteLine(evenNumber);
-            Console.WriteLine(oddNumber);
-            Console.WriteLine(oddSum);
-            Console.WriteLine(evenSum);
 
         }
     }
