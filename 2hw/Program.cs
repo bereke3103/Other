@@ -7,19 +7,37 @@ namespace home2
 
         static void Main(string[] args)
         {
-            int a = int.Parse(Console.ReadLine());
 
-            int temp = a % 2;
+            //нечетное число
+            uint evenNumber = 0;
+            int evenSum = 0;
 
-            bool result = temp == 0;
+            //четное число
+            uint oddNumber = 0;
+            int oddSum = 0;
 
-            if (result) 
+            int currentValue = int.Parse(Console.ReadLine());
+            int limitValue = int.Parse(Console.ReadLine());
+
+            while (currentValue <= limitValue)
             {
-                Console.WriteLine("ЧИЛО ЧЕТНОЕ");
-            } else
-            {
-                Console.WriteLine("ЧИЛО НЕ ЧЕТНОЕ");
+                if (currentValue % 2==0)
+                {
+                    evenSum = evenSum + currentValue;
+                    evenNumber++;
+                } else
+                {
+                    oddSum = oddSum + currentValue;
+                    oddNumber++;
+                }
+                currentValue++;
             }
+
+            Console.WriteLine(evenNumber);
+            Console.WriteLine(oddNumber);
+            Console.WriteLine(oddSum);
+            Console.WriteLine(evenSum);
+
         }
     }
 }
