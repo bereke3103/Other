@@ -7,16 +7,22 @@ namespace home2
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите количество индексов");
+            int elementsCount = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < 15; i++)
+            int[] myArray = new int[elementsCount];
+
+            for (int i = 0; i < myArray.Length; i++)
             {
-                if (i == 11)
-                {
-                    continue;
-                    
-                }
-                Console.WriteLine(i);
+                Console.WriteLine($"Введите тот элемент в котором хранятся {i};");
+                myArray[i] = int.Parse(Console.ReadLine());
+                
             }
+            foreach (var item in myArray)
+            {
+                Console.WriteLine(item);
+            }
+
 
         }
     }
