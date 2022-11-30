@@ -11,7 +11,7 @@ namespace Lessons2
 
        абстрактный метод
 
-       абстрактное свойство
+       абстрактное свойство <---почитать хорошенько
         */
 
 
@@ -32,6 +32,7 @@ namespace Lessons2
 
     abstract class Weapon
     {
+        public abstract int Damage { get; }
         //1. мы можем создавать, конструкторы:
         //указывать, какие параметры туда будут входить
         //public Weapon(int a)
@@ -41,10 +42,21 @@ namespace Lessons2
         //2. Также создавать какие-то методы, по типу Fire()
         public abstract void Fire(); //так как этот метод абстрактное, априори не может
                                      //там описание реализации этого метода
+
+        //3.Абстрактный класс может содержать ни только в себе абстракные методы,
+        //а также конкретные методы
+
+        public void ShowInfo()
+        {
+            //Console.WriteLine(GetType().Name);
+            Console.WriteLine($"{GetType().Name} Damage: {Damage}");
+        }
     }
 
     class Gun : Weapon
     {
+        public override int Damage => 5;
+
         //Для наследования мы должны использовать override -> т.е он работает
         //как для abstract так и для virtual
         public override void Fire()
@@ -55,6 +67,8 @@ namespace Lessons2
 
     class LaserGun : Weapon
     {
+        public override int Damage { get { return 6 ; } }
+
         public override void Fire()
         {
             Console.WriteLine("Пииииу");
@@ -63,6 +77,8 @@ namespace Lessons2
 
     class Bow : Weapon
     {
+        public override int Damage => 8;
+
         public override void Fire()
         {
             Console.WriteLine("Чпуньк");
@@ -76,6 +92,11 @@ namespace Lessons2
         {
             //теперь вызываем Fire
             weapon.Fire();
+        }
+
+        public void CheckInfo (Weapon weapon)
+        {
+            weapon.ShowInfo();
         }
 
 
@@ -97,6 +118,7 @@ namespace Lessons2
 
             foreach (var item in inventory)
             {
+                player.CheckInfo(item);
                 player.Fire(item);
                 Console.WriteLine(); //это просто пробел
 
