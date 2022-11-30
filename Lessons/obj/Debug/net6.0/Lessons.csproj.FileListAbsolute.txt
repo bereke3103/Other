@@ -13,3 +13,18 @@ C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net
 C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\Lessons.pdb
 C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\Lessons.genruntimeconfig.cache
 C:\Users\berek\OneDrive\Рабочий стол\c#\Lessons\Lessons\obj\Debug\net6.0\ref\Lessons.dll
+C:\Users\Береке\Desktop\simple-code\Other\lessons\bin\Debug\net6.0\lessons.exe
+C:\Users\Береке\Desktop\simple-code\Other\lessons\bin\Debug\net6.0\lessons.deps.json
+C:\Users\Береке\Desktop\simple-code\Other\lessons\bin\Debug\net6.0\lessons.runtimeconfig.json
+C:\Users\Береке\Desktop\simple-code\Other\lessons\bin\Debug\net6.0\lessons.dll
+C:\Users\Береке\Desktop\simple-code\Other\lessons\bin\Debug\net6.0\lessons.pdb
+C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\lessons.csproj.AssemblyReference.cache
+C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\lessons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\lessons.AssemblyInfoInputs.cache
+C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\lessons.AssemblyInfo.cs
+C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\lessons.csproj.CoreCompileInputs.cache
+C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\lessons.dll
+C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\refint\lessons.dll
+C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\lessons.pdb
+C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\lessons.genruntimeconfig.cache
+C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\ref\lessons.dll
