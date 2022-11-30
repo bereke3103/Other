@@ -8,23 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\berek\\.nuget\\packages\\": {},
+    "C:\\Users\\Береке\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\Lessons\\Lessons\\Lessons.csproj",
-      "projectName": "Lessons",
-      "projectPath": "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\Lessons\\Lessons\\Lessons.csproj",
-      "packagesPath": "C:\\Users\\berek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\berek\\OneDrive\\Рабочий стол\\c#\\Lessons\\Lessons\\obj\\",
+      "projectUniqueName": "C:\\Users\\Береке\\Desktop\\simple-code\\Other\\lessons\\lessons.csproj",
+      "projectName": "lessons",
+      "projectPath": "C:\\Users\\Береке\\Desktop\\simple-code\\Other\\lessons\\lessons.csproj",
+      "packagesPath": "C:\\Users\\Береке\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Береке\\Desktop\\simple-code\\Other\\lessons\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\berek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Береке\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -32,6 +33,7 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
