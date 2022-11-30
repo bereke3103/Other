@@ -99,6 +99,8 @@ namespace Lessons2
             {
                 player.Fire(item);
                 Console.WriteLine(); //это просто пробел
+
+                //11:23
             }
         }
 
