@@ -82,6 +82,8 @@ namespace lessons
 
             //здесь он обращается к get
             int y = point.Y;
+            point.Z = 10;
+            int z = point.Z;
 
         }
     }
