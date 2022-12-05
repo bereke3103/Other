@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uFN961wwDB+Phn/hnfJhAiR8bEuhHZvW86Qze4B7U36JbNDqGqIsvSprViOqO0yiImWUPsDwJUST0UpuI364sQ==",
+  "dgSpecHash": "3pt5/ofAr18SZIMCusnBqZEaPj8dBmIPmxKK1g8vl4pSjSJkSbndtqOKDyfkbqfPPQO7jcPKegzdGJCXU3UE3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Береке\\Desktop\\simple-code\\Other\\lessons\\lessons.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Береке\\.nuget\\packages\\documentformat.openxml\\2.18.0\\documentformat.openxml.2.18.0.nupkg.sha512",
+    "C:\\Users\\Береке\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

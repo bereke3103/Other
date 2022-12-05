@@ -28,3 +28,6 @@ C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\refint\
 C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\lessons.pdb
 C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\lessons.genruntimeconfig.cache
 C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\ref\lessons.dll
+C:\Users\Береке\Desktop\simple-code\Other\lessons\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\Береке\Desktop\simple-code\Other\lessons\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\Береке\Desktop\simple-code\Other\lessons\obj\Debug\net6.0\lessons.csproj.CopyComplete
