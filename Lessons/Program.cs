@@ -1,36 +1,33 @@
 ﻿using System;
+using lessons.Domain;
+using lessons.Domain.Factories;
 
-
-namespace Lesson {
-    /*
-     Свойства (Properties)
-     Автоматические свойства
-     */
-
-    class Point
+class Program
+{
+    static void Main()
     {
-        //В нашем контексте присутсвует поле Х
-        private int x;
+        Console.WriteLine("Здравствуйте, выберите Зал, в котором вы хотите заниматься");
+        Console.WriteLine("g - Gym, p - Gym and Pool, t - personal Trainings");
 
-        public void SetX(int x)
-        {
-            this.x = x;
-        }
+        string membershipType = Console.ReadLine();
 
-        public int GetX()
-        {
-            return x;
-        }
+        MembershipFactory factory = GetFactory(membershipType);
+        IMembership membership = factory.GetMembership();
+
+        Console.WriteLine(
+            
+            $"{membership.Name}"+
+            $"{membership.Description}"+
+            $"{membership.GetPrice()}"
+            );
     }
 
-    class Program
-    {
-        static void Main(string[] args)
+    private static MembershipFactory GetFactory(string membershipType) =>
+        membershipType.ToLower() switch
         {
-            Point point = new Point();
-            point.SetX(1); //устанавливаем сет
-
-            int x = point.GetX(); //получаем доступ к нему
-        }
-    }
+            "g" => new GymMembershipFactory(100, "Basic Membership"),
+            "p" => new GymPlusPoolFactory(200, "Pool Membership"),
+            "t" => new PersonalTrainingsFactory(100, "Personal trainings Membership"),
+            _ => null
+        };
 }
