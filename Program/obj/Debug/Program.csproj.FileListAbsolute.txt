@@ -1,0 +1,7 @@
+C:\Users\Береке\source\repos\Program\Program\bin\Debug\Program.exe.config
+C:\Users\Береке\source\repos\Program\Program\bin\Debug\Program.exe
+C:\Users\Береке\source\repos\Program\Program\bin\Debug\Program.pdb
+C:\Users\Береке\source\repos\Program\Program\obj\Debug\Program.csproj.AssemblyReference.cache
+C:\Users\Береке\source\repos\Program\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
+C:\Users\Береке\source\repos\Program\Program\obj\Debug\Program.exe
+C:\Users\Береке\source\repos\Program\Program\obj\Debug\Program.pdb
