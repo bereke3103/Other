@@ -1,5 +1,4 @@
-﻿using ConsoleApp2.Interface;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    public class Cook
+    class Cook
     {
         public string Name { get; set; }
 
@@ -16,10 +15,12 @@ namespace ConsoleApp2
             Name = name;
         }
 
-        public void MakeDinner(IMeal meal)
+        public void MeakDinner(MealBase[] menu)
         {
-            meal.Make();
+            foreach (MealBase meal in menu)
+            {
+                meal.Make();
+            }
         }
-
     }
 }

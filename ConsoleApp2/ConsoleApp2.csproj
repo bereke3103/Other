@@ -44,11 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cook.cs" />
-    <Compile Include="Strategy\IMeal.cs" />
+    <Compile Include="Food\PotatoMeal.cs" />
+    <Compile Include="Food\SaladMeal.cs" />
+    <Compile Include="MealBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Strategy\PotatoMeal.cs" />
-    <Compile Include="Strategy\SaladMeal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

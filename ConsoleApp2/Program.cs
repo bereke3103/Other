@@ -1,9 +1,5 @@
-﻿using ConsoleApp2.Strategy;
+﻿using ConsoleApp2.Food;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
@@ -11,8 +7,10 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Cook bereke = new Cook("Bereke");
-            bereke.MakeDinner(new SaladMeal());
+            MealBase[] menu = new MealBase[] { new PotatoMeal(), new SaladMeal() };
+
+            Cook bob = new Cook("Bereke");
+            bob.MeakDinner(menu);
             Console.WriteLine();
             Console.ReadLine();
         }
