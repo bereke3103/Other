@@ -1,0 +1,5 @@
+C:\Users\Береке\Desktop\pattern\ConsoleApp1\SecondExamplePhone\obj\Debug\net6.0\SecondExamplePhone.csproj.AssemblyReference.cache
+C:\Users\Береке\Desktop\pattern\ConsoleApp1\SecondExamplePhone\obj\Debug\net6.0\SecondExamplePhone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Береке\Desktop\pattern\ConsoleApp1\SecondExamplePhone\obj\Debug\net6.0\SecondExamplePhone.AssemblyInfoInputs.cache
+C:\Users\Береке\Desktop\pattern\ConsoleApp1\SecondExamplePhone\obj\Debug\net6.0\SecondExamplePhone.AssemblyInfo.cs
+C:\Users\Береке\Desktop\pattern\ConsoleApp1\SecondExamplePhone\obj\Debug\net6.0\SecondExamplePhone.csproj.CoreCompileInputs.cache
