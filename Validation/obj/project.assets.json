@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Береке\\Desktop\\pattern\\ConsoleApp1\\ConsoleApp1\\ValidationWithout.csproj",
-      "projectName": "ValidationWithout",
-      "projectPath": "C:\\Users\\Береке\\Desktop\\pattern\\ConsoleApp1\\ConsoleApp1\\ValidationWithout.csproj",
+      "projectUniqueName": "C:\\Users\\Береке\\Desktop\\pattern\\ConsoleApp1\\Validation\\ValidationWith.csproj",
+      "projectName": "ValidationWith",
+      "projectPath": "C:\\Users\\Береке\\Desktop\\pattern\\ConsoleApp1\\Validation\\ValidationWith.csproj",
       "packagesPath": "C:\\Users\\Береке\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Береке\\Desktop\\pattern\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\Береке\\Desktop\\pattern\\ConsoleApp1\\Validation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
