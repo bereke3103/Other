@@ -10,11 +10,25 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string name = "Bereke";
-            int age = 23;
-            double height = 1.81;
-            Console.WriteLine("Имя: {0}, Возраст: {1}, Рост: {2}", name, age, height);
-            Console.ReadLine();     
+
+            string[] names = new string[3] { "Bereke", "Mereke", "Aikyn" };
+
+
+            //1
+            //foreach (var name in names)
+            //{
+            //    Console.WriteLine(name);
+            //}
+            //Console.ReadLine();
+
+
+            //2
+            //for (int i = 0; i < names.Length; i++)
+            //{
+            //    Console.WriteLine(names[i]);
+            //}
+            //Console.ReadLine();
+
         }
     }
 }
