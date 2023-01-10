@@ -8,5 +8,13 @@ namespace ConsoleApp1
 {
     class Employee : Person
     {
+
+        public string Company { get; set; }
+
+        public Employee(string name, string compnay) : base(name)
+        {
+            Company = compnay;
+        }
+        
     }
 }

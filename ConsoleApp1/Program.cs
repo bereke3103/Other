@@ -11,17 +11,14 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            Person person = new Person() { Name = "Bereke" };
-
+            Person person = new Person("Bereke");
             person.CheckName();
 
-            //============================================================
+            //++++++++++++++++++++++++++++++++\
 
-            //так как уже был унаследован от Person мы можем переиспользовать его
-
-            Employee employee = new Employee() { Name = "Employee" };
-
+            Employee employee = new Employee("Tom", "Microsoft");
             employee.CheckName();
+
 
             Console.ReadLine();
 
