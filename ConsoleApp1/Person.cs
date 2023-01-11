@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Person
+    public class Person<T, K>
     {
-      public object Id { get; }
-        public string Name { get; }
-        public Person(object id, string name)
+      public T id { get; }
+      public K name { get; }
+
+        public Person(T id, K name)
         {
-            Id = id;
-            Name = name;
+            this.id = id;
+            this.name = name;
         }
     }
 }
