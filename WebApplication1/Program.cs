@@ -3,19 +3,12 @@ using WebApplication1.Middleware;
 using WebApplication1.Service;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder();
-
-builder.Services.AddTransient<TimeService>();
+builder.Services.AddTransient<IHelloService, RuHelloService>();
+builder.Services.AddTransient<IHelloService, EnHelloService>();
 
 WebApplication app = builder.Build();
 
-app.UseMiddleware<TimerMiddleware>();
-app.Run(async (context) =>
-{
-    //context.Response.ContentType = "text/html; charset=utf-8";
-    await context.Response.WriteAsync("Hello metanit");
-});
-
-
+app.UseMiddleware<HelloMiddleware>();
 
 
 app.Run();
