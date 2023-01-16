@@ -2,34 +2,29 @@ WebApplicationBuilder builder = WebApplication.CreateBuilder();
 
 WebApplication app = builder.Build();
 
-app.Run(async (context) =>
-{
-    context.Response.ContentType = "text/html; charset=utf-8";
 
-    if (context.Request.Path == "/upload" && context.Request.Method == "POST")
+
+app.UseWhen(context => context.Request.Path == "/time",
+    appBuilder =>
     {
-        IFormFileCollection files = context.Request.Form.Files;
-
-        //путь к папке, где будут храниться файлы
-        var uploadPath = $"{Directory.GetCurrentDirectory()}/uploads";
-        Directory.CreateDirectory(uploadPath);
-
-        foreach (var file in files)
+        appBuilder.Use(async (context, next) =>
         {
-            // путь к папке uploads
-            string fullPath = $"{uploadPath}/{file.FileName}";
+            var time = DateTime.Now.ToShortDateString();
+            Console.WriteLine($"Time: {time}");
+            await next();
+        });
 
-            // сохраняем файл в папку uploads
-            using (var fileStream = new FileStream(fullPath, FileMode.Create))
-            {
-                await file.CopyToAsync(fileStream);
-            }
-        }
-        await context.Response.WriteAsync("Файлы успешно загружены");
-    } else
-    {
-        await context.Response.SendFileAsync("html/htmlpage.html");
-    }
+        appBuilder.Run(async context =>
+        {
+            var time = DateTime.Now.ToShortTimeString();
+            await context.Response.WriteAsync($"Time: {time}");
+        });
+
+    });
+
+app.Run(async context =>
+{
+    await context.Response.WriteAsync("HELLO METANIT COM");
 });
 
 app.Run();
