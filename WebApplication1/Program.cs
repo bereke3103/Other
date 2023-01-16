@@ -1,19 +1,23 @@
-using WebApplication1.Middleware;
 using WebApplication1.Service;
-using WebApplication1.Service.Interface;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder();
-builder.Services.AddSingleton<ValueStorage>();
-builder.Services.AddSingleton<IGenerator>(serv=> serv.GetRequiredService<ValueStorage>());
-builder.Services.AddSingleton<IReader>(serv=> serv.GetRequiredService<ValueStorage>());
 
-//builder.Services.AddSingleton<IGenerator, ValueStorage>();
-//builder.Services.AddSingleton<IReader, ValueStorage>();
+builder.Services.Configure<RouteOptions>(option =>
+{
+    option.ConstraintMap.Add("secretcode", typeof(SecretCodeConstraint));
+});
 
 WebApplication app = builder.Build();
 
-app.UseMiddleware<GeneratoMiddleware>();
-app.UseMiddleware<ReaderMiddleware>();
+app.Map("/users/{name}/{token:secretcode(1234566)}/", (string name, int token) =>
+{
+    return $"Name: {name} \nToken: {token}";
+});
+
+app.Map("/", () => "Index page");
+
+
+
 
 
 app.Run();
