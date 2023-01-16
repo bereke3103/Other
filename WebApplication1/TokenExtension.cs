@@ -3,9 +3,9 @@
     
     public static class TokenExtension
     {
-        public static IApplicationBuilder UseToken(this IApplicationBuilder app)
+        public static IApplicationBuilder UseToken(this IApplicationBuilder app, string pattern)
         {
-            return app.UseMiddleware<TokenMiddleware>();
+            return app.UseMiddleware<TokenMiddleware>(pattern);
         }
     }
 }

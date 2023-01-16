@@ -7,7 +7,7 @@ WebApplication app = builder.Build();
 
 //app.UseMiddleware<TokenMiddleware>();
 
-app.UseToken();
+app.UseToken("555");
 
 app.Run(async (context) =>
 {
