@@ -24,3 +24,4 @@ C:\Users\Береке\Desktop\course\helloapp\HelloApp\WebApplication1\obj\Debug
 C:\Users\Береке\Desktop\course\helloapp\HelloApp\WebApplication1\obj\Debug\net7.0\WebApplication1.pdb
 C:\Users\Береке\Desktop\course\helloapp\HelloApp\WebApplication1\obj\Debug\net7.0\WebApplication1.genruntimeconfig.cache
 C:\Users\Береке\Desktop\course\helloapp\HelloApp\WebApplication1\obj\Debug\net7.0\ref\WebApplication1.dll
+C:\Users\Береке\Desktop\course\helloapp\HelloApp\WebApplication1\bin\Debug\net7.0\WebApplication1.staticwebassets.runtime.json

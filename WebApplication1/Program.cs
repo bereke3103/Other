@@ -1,23 +1,27 @@
+using Microsoft.Extensions.FileProviders;
 using WebApplication1.Service;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder();
 
-builder.Services.Configure<RouteOptions>(option =>
+builder.Configuration.AddInMemoryCollection(new Dictionary<string, string>
 {
-    option.ConstraintMap.Add("invalidnames", typeof(InvalidNamesConstraint));
+    {"name", "Bereke"},
+    {"age", "30"}
+
 });
 
 WebApplication app = builder.Build();
 
-app.Map("/users/{name:invalidnames}", (string name) => $"Name: {name}");
+//2 вариант
+app.Map("/", (IConfiguration configuration) => $"{configuration["name"]} - {configuration["age"]}");
 
-//app.Map("/users/{name}/{token:secretcode(1234566)}/", (string name, int token) =>
+//1 вариант
+//app.Run(async (context) =>
 //{
-//    return $"Name: {name} \nToken: {token}";
+//    string name = app.Configuration["name"];
+//    string age = app.Configuration["age"];
+//    await context.Response.WriteAsync($"{name} - {age}");
 //});
-
-app.Map("/", () => "Index page");
-
 
 
 
