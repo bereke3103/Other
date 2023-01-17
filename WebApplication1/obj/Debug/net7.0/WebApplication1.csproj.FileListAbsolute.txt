@@ -32,3 +32,4 @@ C:\Users\Береке\Desktop\course\web-api3\WebApplication1\WebApplication1\ob
 C:\Users\Береке\Desktop\course\web-api3\WebApplication1\WebApplication1\obj\Debug\net7.0\WebApplication1.pdb
 C:\Users\Береке\Desktop\course\web-api3\WebApplication1\WebApplication1\obj\Debug\net7.0\WebApplication1.genruntimeconfig.cache
 C:\Users\Береке\Desktop\course\web-api3\WebApplication1\WebApplication1\obj\Debug\net7.0\ref\WebApplication1.dll
+C:\Users\Береке\Desktop\course\web-api3\WebApplication1\WebApplication1\bin\Debug\net7.0\WebApplication1.staticwebassets.runtime.json

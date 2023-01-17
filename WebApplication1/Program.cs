@@ -5,6 +5,13 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
+//условная бд с пользователями
+var people = new List<Person> 
+{
+    new Person("tom@gmail.com", "123456"),
+    new Person("bereke@gmail.com", "3103"),
+}; 
+
 var builder = WebApplication.CreateBuilder();
 
 builder.Services.AddAuthorization();
@@ -31,12 +38,21 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 var app = builder.Build();
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.Map("/login/{username}", (string username) =>
+
+app.MapPost("/login", (Person loginData) =>
 {
-    var claims = new List<Claim> { new Claim(ClaimTypes.Name, username) };
+    // находим пользователя 
+    Person? person = people.FirstOrDefault(p => p.Email == loginData.Email && p.Password == loginData.Password);
+    // если пользователь не найден, отправляем статусный код 401
+    if (person is null) return Results.Unauthorized();
+
+    var claims = new List<Claim> { new Claim(ClaimTypes.Name, person.Email) };
     // создаем JWT-токен
     var jwt = new JwtSecurityToken(
             issuer: AuthOptions.ISSUER,
@@ -44,9 +60,31 @@ app.Map("/login/{username}", (string username) =>
             claims: claims,
             expires: DateTime.UtcNow.Add(TimeSpan.FromMinutes(2)),
             signingCredentials: new SigningCredentials(AuthOptions.GetSymmetricSecurityKey(), SecurityAlgorithms.HmacSha256));
+    var encodedJwt = new JwtSecurityTokenHandler().WriteToken(jwt);
 
-    return new JwtSecurityTokenHandler().WriteToken(jwt);
+    // формируем ответ
+    var response = new
+    {
+        access_token = encodedJwt,
+        username = person.Email
+    };
+
+    return Results.Json(response);
 });
+
+//app.Map("/login/{username}", (string username) =>
+//{
+//    var claims = new List<Claim> { new Claim(ClaimTypes.Name, username) };
+//    // создаем JWT-токен
+//    var jwt = new JwtSecurityToken(
+//            issuer: AuthOptions.ISSUER,
+//            audience: AuthOptions.AUDIENCE,
+//            claims: claims,
+//            expires: DateTime.UtcNow.Add(TimeSpan.FromMinutes(2)),
+//            signingCredentials: new SigningCredentials(AuthOptions.GetSymmetricSecurityKey(), SecurityAlgorithms.HmacSha256));
+
+//    return new JwtSecurityTokenHandler().WriteToken(jwt);
+//});
 
 app.Map("/data", [Authorize] () => new { message = "Hello World!" });
 
@@ -60,3 +98,5 @@ public class AuthOptions
     public static SymmetricSecurityKey GetSymmetricSecurityKey() =>
         new SymmetricSecurityKey(Encoding.UTF8.GetBytes(KEY));
 }
+
+record class Person(string Email, string Password);
